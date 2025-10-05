@@ -57,8 +57,8 @@ export default function Layout({ children }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <style>
-        {`
+      <style dangerouslySetInnerHTML={{
+        __html: `
         :root {
           --primary: #1E3A8A;
           --primary-light: #3B82F6;
@@ -68,8 +68,8 @@ export default function Layout({ children }) {
           --text-primary: #1E293B;
           --text-secondary: #64748B;
         }
-        `}
-      </style>
+        `
+      }} />
 
       {/* Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${

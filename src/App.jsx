@@ -1,10 +1,10 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Layout from '../layout.js'
-import Home from '../pages/home.js'
-import Services from '../pages/services.js'
-import Portfolio from '../pages/portfolio.js'
-import Contact from '../pages/contact.js'
+import Layout from '../layout.jsx'
+import Home from '../pages/home.jsx'
+import Services from '../pages/services.jsx'
+import Portfolio from '../pages/portfolio.jsx'
+import Contact from '../pages/contact.jsx'
 
 function App() {
   return (
